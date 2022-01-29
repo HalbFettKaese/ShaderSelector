@@ -1,0 +1,99 @@
+{
+    "targets": [
+        "swap1",
+        "swap2",
+        "water",
+        "translucent",
+        "itemEntity",
+        "particles",
+        "clouds",
+        "weather",
+        "final",
+        "trans",
+        {"name":"poi", "width":1, "height":1},
+        {"name":"poi_copy", "width":1, "height":1}
+    ],
+    "passes": [
+        {
+            "name": "util/blit_copy",
+            "intarget": "poi",
+            "outtarget":"poi_copy"
+        },
+        {
+            "name": "poi/scan",
+            "intarget": "minecraft:main",
+            "outtarget": "poi",
+            "auxtargets": [
+                {"name": "ItemEntitySampler","id": "itemEntity"},
+                {"name": "ItemEntityDepthSampler","id": "itemEntity:depth"},
+                {"name":"poiSampler", "id": "poi_copy"}
+            ]
+        },
+        {
+            "name": "transparency",
+            "intarget": "minecraft:main",
+            "outtarget": "trans",
+            "auxtargets": [
+                {
+                    "name": "DiffuseDepthSampler",
+                    "id": "minecraft:main:depth"
+                },
+                {
+                    "name": "TranslucentSampler",
+                    "id": "translucent"
+                },
+                {
+                    "name": "TranslucentDepthSampler",
+                    "id": "translucent:depth"
+                },
+                {
+                    "name": "ItemEntitySampler",
+                    "id": "itemEntity"
+                },
+                {
+                    "name": "ItemEntityDepthSampler",
+                    "id": "itemEntity:depth"
+                },
+                {
+                    "name": "ParticlesSampler",
+                    "id": "particles"
+                },
+                {
+                    "name": "ParticlesDepthSampler",
+                    "id": "particles:depth"
+                },
+                {
+                    "name": "CloudsSampler",
+                    "id": "clouds"
+                },
+                {
+                    "name": "CloudsDepthSampler",
+                    "id": "clouds:depth"
+                },
+                {
+                    "name": "WeatherSampler",
+                    "id": "weather"
+                },
+                {
+                    "name": "WeatherDepthSampler",
+                    "id": "weather:depth"
+                }
+            ]
+        },
+        {
+            "name": "poi/eval",
+            "intarget": "trans",
+            "auxtargets": [ 
+                {"name":"poiSampler", "id": "poi"},
+                {"name": "DiffuseDepthSampler","id": "minecraft:main:depth"},
+                {"name": "FlashlightSampler","id": "flashlight","width":  428,"height": 1205,"bilinear": false}
+            ],
+            "outtarget":"final"
+        },
+        {
+            "name": "util/blit_copy",
+            "intarget": "final",
+            "outtarget": "minecraft:main"
+        }
+    ]
+}

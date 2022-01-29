@@ -1,0 +1,68 @@
+{
+	"__comment": "Designed by CloudWolf with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"color": "custom/poi_colors/g000b000a255"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ1",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 0.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" }
+			}
+		},
+		{
+			"__comment": "PlaneZ1",
+			"from": [ 0, 0, 16 ],
+			"to": [ 16, 16, 16.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" }
+			}
+		},
+		{
+			"__comment": "PlaneX3",
+			"from": [ 0, 0, 0 ],
+			"to": [ 0.001, 16, 16 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" }
+			}
+		},
+		{
+			"__comment": "PlaneX3",
+			"from": [ 16, 0, 0 ],
+			"to": [ 16.001, 16, 16 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" }
+			}
+		},
+		{
+			"__comment": "PlaneY5",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 0.001, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" }
+			}
+		},
+		{
+			"__comment": "PlaneY5",
+			"from": [ 0, 16, 0 ],
+			"to": [ 16, 16.001, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#color" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale":  [ 2, 2, 2 ],
+			"translation": [0, 0, 0]
+		}
+	}
+}
