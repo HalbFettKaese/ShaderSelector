@@ -1,4 +1,4 @@
-# Shader Selector (Minecraft Resource Pack)
+<h1> Shader Selector (Minecraft Resource Pack) </h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -6,8 +6,8 @@
      alt="Social Image"
      style="float: left; margin-right: 10px;" />
 
-## Contributors 🧱
 
+## Contributors 🧱
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
