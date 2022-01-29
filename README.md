@@ -1,7 +1,7 @@
 # Shader Selector (Minecraft Resource Pack)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?)](#contributors-)
-[![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://shields.io/)
+[![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://discord.gg/VzjQ7kFKqD)
 [![Tutorial](https://img.shields.io/badge/Tutorial-▶-red.svg)](https://shields.io/)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="images/social.png"
