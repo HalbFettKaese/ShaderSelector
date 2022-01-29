@@ -6,7 +6,16 @@
      alt="Social Image"
      style="float: left; margin-right: 10px;" />
 
-## Example and Usage 💡
+## Flashlight Example 📝
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+To use this pack, download the shader pack and go to "minecraft/assets/shaders/program/poi/eval.fsh". You can then read poi.g and poi.b to perform shader operations based on the values of G and B. Assume that they are 255.0/255.0 by default. Additionally, an overlay variable was added if you want to add an overlay to the screen, just load a texture onto that variable before the mixing line at the bottom of the file. <br>
+In game, making the player have an item in their center crosshair will send the shader the data. This can be done with summon or give. The item you need is:
+"/give @p white_stained_glass{CustomModelData:1GGGBBB}" where GGG and BBB are the value for G and B. One of the two must be 255, and the other will be send as input data to the shader. If summoning an item, it is suggested that it have pickup delay and an age close to 6000 (the ticks for an item to despawn).
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
+## How to Use
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <img src="images/flashlight.png"
