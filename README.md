@@ -15,7 +15,7 @@ Two Channel Selection of Vanilla Shaders!
   <tr>
     <td align="center"><a href="https://github.com/CloudWolfYT"><img src="https://avatars.githubusercontent.com/u/64243799?v=4" width="100px;" alt=""/><br /><sub><b>Cloud Wolf</b></sub></a><br /><a href="#" title="Project Creator">🔨</a></td>
     <td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/0" width="100px;" alt=""/><br /><sub><b>The Der Discohund</b></sub></a><br /><a href="#" title="Theory Contributor">💡</a></td>
-    <td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/rx" width="100px;" alt=""/><br /><sub><b>RX</b></sub></a><br /><a href="#" title="Theory Contributor">💡</a></td>
+    <td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/RitikShah" width="100px;" alt=""/><br /><sub><b>RX</b></sub></a><br /><a href="#" title="Theory Contributor">💡</a></td>
   </tr>
 </table>
 
