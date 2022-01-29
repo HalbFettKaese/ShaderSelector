@@ -6,16 +6,7 @@
      alt="Social Image"
      style="float: left; margin-right: 10px;" />
 
-## Flashlight Example 📝
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-To use this pack, download the shader pack and go to "minecraft/assets/shaders/program/poi/eval.fsh". You can then read poi.g and poi.b to perform shader operations based on the values of G and B. Assume that they are 255.0/255.0 by default. Additionally, an overlay variable was added if you want to add an overlay to the screen, just load a texture onto that variable before the mixing line at the bottom of the file. <br>
-In game, making the player have an item in their center crosshair will send the shader the data. This can be done with summon or give. The item you need is:
-"/give @p white_stained_glass{CustomModelData:1GGGBBB}" where GGG and BBB are the value for G and B. One of the two must be 255, and the other will be send as input data to the shader. If summoning an item, it is suggested that it have pickup delay and an age close to 6000 (the ticks for an item to despawn).
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-
-## How to Use
+## Flashlight Example 💡
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <img src="images/flashlight.png"
@@ -23,6 +14,15 @@ In game, making the player have an item in their center crosshair will send the 
      style="float: left; margin-right: 10px;" /> <br>
 In the "flashlight" example files, right clicking a warped fungus on a stick causes the flashlight to turn on/off. While the flashlight is on "battery" scoreboard is drained, and as it goes down the overlay in the top left corner indicates battery level. This example demonstrates the two channel handling. The battery display can operate independent of the flashlight as it is on the Blue channel and the flashlight is on the Green. <br>
 Note: In the datapack, it constantly tries to apply the shader (every 1s). This is due to some slight inconsistencies with the system. It may be possible to spawn the item differently or make the core model smaller, or larger, to make it more consistent but that was not fully explored. <br>
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
+## How to Use 📝
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+To use this pack, download the shader pack and go to "minecraft/assets/shaders/program/poi/eval.fsh". You can then read poi.g and poi.b to perform shader operations based on the values of G and B. Assume that they are 255.0/255.0 by default. Additionally, an overlay variable was added if you want to add an overlay to the screen, just load a texture onto that variable before the mixing line at the bottom of the file. <br>
+In game, making the player have an item in their center crosshair will send the shader the data. This can be done with summon or give. The item you need is:
+"/give @p white_stained_glass{CustomModelData:1GGGBBB}" where GGG and BBB are the value for G and B. One of the two must be 255, and the other will be send as input data to the shader. If summoning an item, it is suggested that it have pickup delay and an age close to 6000 (the ticks for an item to despawn).
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
