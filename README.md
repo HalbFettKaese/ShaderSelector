@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DISCORD-BADGE:START - Do not remove or modify this section -->
-[![Get Help on the Discord](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![Discord](https://img.shields.io/badge/Discord-Online-GREEN.svg)](https://shields.io/)
 <!-- DISCORD-BADGE:END -->
 <img src="images/social.png"
      alt="Social Image"
