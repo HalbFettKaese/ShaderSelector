@@ -15,8 +15,12 @@
 1. 3D Models of cubes of specific colors (R=255,G=X,B=Y,A=255) are used as inputs. <br>
 <img src="images/core_flowchart.png"
      alt="Core Flowchart"
-     style="float: left; margin-right: 10px;" />
-2. A core shader ensures that the models have the same color on all sides, bypassing default color modulation.
+     style="float: left; margin-right: 10px;" /> <br>
+2. A core shader ensures that the models have the same color on all sides, bypassing default color modulation. <br>
+<img src="images/scan_flowchart.png"
+     alt="Scanner Flowchart"
+     style="float: left; margin-right: 10px;" /> <br>
+3. Item Buffer is read and if the color is R=255 and A=255, the post's buffer is updated based on the G and B values. If G or B is 255, it is not written to. <br>
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
