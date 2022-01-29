@@ -11,8 +11,8 @@
 <!-- markdownlint-disable -->
 <img src="images/cube.png"
      alt="Cube"
-     style="float: left; margin-right: 10px;" />
-1. 3D Models of cubes of specific colors (R=255,G=X,B=Y,A=255) are used as inputs.
+     style="float: left; margin-right: 10px;" /> <br>
+1. 3D Models of cubes of specific colors (R=255,G=X,B=Y,A=255) are used as inputs. <br>
 <img src="images/core_flowchart.png"
      alt="Core Flowchart"
      style="float: left; margin-right: 10px;" />
