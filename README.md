@@ -1,8 +1,8 @@
-# Shader Selector
+## Shader Selector
+#Two Channel Selection of Vanilla Shaders!
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-Two Channel Selection of Vanilla Shaders!
 <img src="images/social.png"
      alt="Social Image"
      style="float: left; margin-right: 10px;" />
