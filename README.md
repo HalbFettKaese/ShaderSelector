@@ -1,6 +1,6 @@
 # Shader Selector (Minecraft Resource Pack)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?)](#contributors-)
 [![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://discord.gg/VzjQ7kFKqD)
 [![Tutorial](https://img.shields.io/badge/Tutorial-▶-red.svg)](https://www.youtube.com/watch?v=2RvUduq4L4Q)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -58,6 +58,7 @@ In game, making the player have an item in their center crosshair will send the 
     <td align="center"><a href="https://github.com/CloudWolfYT"><img src="https://avatars.githubusercontent.com/u/64243799?v=4" width="100px;" alt=""/><br /><sub><b>Cloud Wolf</b></sub></a><br /><a href="#" title="Project Creator">🔨</a></td>
     <td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/0" width="100px;" alt=""/><br /><sub><b>The Der Discohund</b></sub></a><br /><a href="#" title="Theory Contributor">💡</a></td>
     <td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/20506548?v=4" width="100px;" alt=""/><br /><sub><b>RitikShah</b></sub></a><br /><a href="#" title="Theory Contributor">💡</a></td>
+    <td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/0" width="100px;" alt=""/><br /><sub><b>Sir Benet</b></sub></a><br /><a href="#" title="Draw Text Shader Debugger">💡</a></td>
   </tr>
 </table>
 
