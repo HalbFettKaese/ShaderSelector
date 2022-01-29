@@ -21,6 +21,10 @@
      alt="Scanner Flowchart"
      style="float: left; margin-right: 10px;" /> <br>
 3. Item Buffer is read and if the color is R=255 and A=255, the post's buffer is updated based on the G and B values. If G or B is 255, it is not written to. <br>
+<img src="images/post_flowchart.png"
+     alt="Post Flowchart"
+     style="float: left; margin-right: 10px;" /> <br>
+4. Here is the overall "transparency.json" post program. It persists the Pixel of Interest (POI) buffer, ensuring it only changes when it sees something of interest. Also of note, the "transparency.json" program makes the alpha of items with R=255 zero, making the item invisible to users.<br>
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
