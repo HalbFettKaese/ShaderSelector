@@ -6,6 +6,14 @@
      alt="Social Image"
      style="float: left; margin-right: 10px;" />
 
+## How it Works! 🔨
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<img src="images/core_flowchart.png"
+     alt="Core Flowchart"
+     style="float: left; margin-right: 10px;" />
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 
 ## Contributors 🧱
 <!-- prettier-ignore-start -->
