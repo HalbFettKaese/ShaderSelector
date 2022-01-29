@@ -6,13 +6,14 @@
      alt="Social Image"
      style="float: left; margin-right: 10px;" />
 
-## Example and Usage 🔨
+## Example and Usage 💡
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <img src="images/flashlight.png"
      alt="Flashlight"
      style="float: left; margin-right: 10px;" /> <br>
 In the "flashlight" example files, right clicking a warped fungus on a stick causes the flashlight to turn on/off. While the flashlight is on "battery" scoreboard is drained, and as it goes down the overlay in the top left corner indicates battery level. This example demonstrates the two channel handling. The battery display can operate independent of the flashlight as it is on the Blue channel and the flashlight is on the Green. <br>
+Note: In the datapack, it constantly tries to apply the shader (every 1s). This is due to some slight inconsistencies with the system. It may be possible to spawn the item differently or make the core model smaller, or larger, to make it more consistent but that was not fully explored. <br>
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
